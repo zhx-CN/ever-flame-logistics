@@ -2,6 +2,14 @@
 
 React 19 + Vite 6 中英文企业展示网站。包含首页、空运服务、印度空运、马来西亚空运、货物能力、关于我们、联系我们和隐私政策。
 
+## 在线预览
+
+- [英文首页](https://zhx-cn.github.io/ever-flame-logistics/)
+- [中文首页](https://zhx-cn.github.io/ever-flame-logistics/zh/)
+- [公开源码仓库](https://github.com/zhx-CN/ever-flame-logistics)
+
+已于 2026-10-04 发布到 GitHub Pages。将网址发给他人即可在浏览器查看，不需要安装 Node.js 或运行启动脚本。以后向 `main` 提交网站代码更新会自动重新发布。
+
 ## 本地运行
 
 ```powershell

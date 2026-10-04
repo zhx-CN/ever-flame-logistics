@@ -2,9 +2,16 @@
 
 ## 当前状态
 
-已准备仓库子目录适配、16 个中英文静态入口和 GitHub Actions 发布流程。是否已发布以 GitHub Actions 成功运行和实际公网地址验证为准；仅生成配置或本地构建不代表上线。
+已于 2026-10-04 创建公开仓库并成功发布；GitHub Actions 的首次 `build` 和 `deploy` 均已通过，HTTPS 已启用。
 
-2026-10-04 已验证 `/ever-flame-logistics/` 子路径构建：3 项 GitHub Pages 测试通过，覆盖全部 16 个静态入口、资源路径和刷新；原生产构建及 4 项现有站点测试通过。GitHub CLI 已确认登录账号为 `zhx-CN`，建议仓库 `zhx-CN/ever-flame-logistics` 尚未创建。当前没有公网部署。
+- 英文首页：[EVER FLAME LOGISTICS](https://zhx-cn.github.io/ever-flame-logistics/)。
+- 中文首页：[EVER FLAME LOGISTICS 中文版](https://zhx-cn.github.io/ever-flame-logistics/zh/)。
+- 公开仓库：[zhx-CN/ever-flame-logistics](https://github.com/zhx-CN/ever-flame-logistics)。
+- 首次部署记录：[GitHub Actions 发布记录](https://github.com/zhx-CN/ever-flame-logistics/actions/runs/37171791089)。
+
+验证结果：3 项 GitHub Pages 构建测试通过，覆盖全部 16 个中英文静态入口、资源路径和静态主机刷新；原生产构建及 4 项现有站点测试已通过。部署后逐项核对了公网的 16 个页面入口和语言标记，JavaScript、CSS 及四张 PNG 图片均返回正常响应，图片大小与项目资产一致；未知路径返回 404。本次公网验收为 HTTP 页面与资源检查，不代表完成新一轮全站视觉截图验收。
+
+当前发布的是展示原型：联系表单不会发送或保存数据，真实联系方式尚待提供，页面仍保留 `noindex, nofollow`。
 
 ## 对外访问方式
 
